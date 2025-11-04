@@ -1,0 +1,30 @@
+
+---
+
+### 📄 الملف 2: `pubspec.yaml`
+```yaml
+name: my_little_colors
+description: "لوان الصغير – تطبيق تلوين آمن للأطفال من 3 إلى 6 سنوات"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: FredokaOne
+      fonts:
+        - asset: assets/fonts/FredokaOne-Regular.ttf
+  assets:
+    - assets/icons/
